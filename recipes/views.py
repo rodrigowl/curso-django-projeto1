@@ -13,7 +13,7 @@ def home(request):  # isso aqui é uma view /usuario solicita
 
 
 def contato(request):  # isso aqui é uma view /usuario solicita
-    return render(request, 'temp.html')
+    return render(request, 'recipes/contato.html')
 
 
 def sobre(request):  # isso aqui é uma view /usuario solicita
